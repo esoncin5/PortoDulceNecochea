@@ -63,7 +63,7 @@ export default function Header() {
               height={48}
               className="rounded-full group-hover:scale-110 transition-transform"
             />
-            <span className="text-2xl font-playfair font-bold bg-gradient-to-r from-pink-pastel to-peach bg-clip-text text-transparent">
+            <span className="text-2xl font-playfair font-bold text-[#FF5C8D]">
               Porto Dulce
             </span>
           </Link>

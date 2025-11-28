@@ -395,10 +395,10 @@ export default function CatalogSection() {
     <section id="tortas" className="py-20 bg-gradient-cream">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4 text-[#FFC5D3]">
+          <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4 text-[#FF5C8D]">
             Nuestras Tortas
           </h2>
-          <p className="text-lg text-[#FFFFFF] max-w-2xl mx-auto">
+          <p className="text-lg text-[#FFC5D3] max-w-2xl mx-auto">
             Cada torta es única y hecha con ingredientes de primera calidad
           </p>
         </div>

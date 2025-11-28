@@ -9,10 +9,10 @@ export default function ContactSection() {
     <section id="contacto" className="py-20 bg-gradient-cream">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4 text-[#FFC5D3]">
+          <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4 text-[#FF5C8D]">
             Contacto
           </h2>
-          <p className="text-lg text-[#FFFFFF] max-w-2xl mx-auto">
+          <p className="text-lg text-[#FFC5D3] max-w-2xl mx-auto">
             Estamos para ayudarte con tu pedido
           </p>
         </div>
@@ -21,7 +21,7 @@ export default function ContactSection() {
           <div className="space-y-6">
             <Card>
               <CardHeader>
-                <CardTitle className="text-2xl font-playfair text-[#FFFFFF]">
+                <CardTitle className="text-2xl font-playfair text-[#FFC5D3]">
                   Información de Contacto
                 </CardTitle>
               </CardHeader>
@@ -93,7 +93,7 @@ export default function ContactSection() {
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-2xl font-playfair text-[#FFFFFF]">
+                <CardTitle className="text-2xl font-playfair text-[#FFC5D3]">
                   Zona de Cobertura
                 </CardTitle>
               </CardHeader>
