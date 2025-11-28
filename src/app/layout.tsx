@@ -1,6 +1,8 @@
+
 import type { Metadata } from "next";
 import { Playfair_Display, Poppins } from "next/font/google";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { CartProvider } from "@/contexts/CartContext";
 import { Toaster } from "@/components/ui/sonner";
 import GlobalClientEffects from "@/components/GlobalClientEffects";
 
@@ -52,7 +54,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {content}
+          <CartProvider>
+            {content}
+          </CartProvider>
         </ThemeProvider>
       </body>
     </html>

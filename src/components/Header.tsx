@@ -3,14 +3,18 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Menu, X, Cake } from "lucide-react";
+import { Menu, X, ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { Badge } from "@/components/ui/badge";
+import { useCart } from "@/contexts/CartContext";
 import Image from "next/image";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const { getTotalItems, setIsOpen } = useCart();
+  const totalItems = getTotalItems();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -53,12 +57,12 @@ export default function Header() {
             className="flex items-center gap-2 group"
           >
             <Image
-              src="/espiral.png" // El nombre de tu archivo en la carpeta /public
+              src="/espiral.png"
               alt="Logo de Porto Dulce"
-              width={48}  // 48px (w-12)
-              height={48} // 48px (h-12)
-              className="rounded-full group-hover:scale-110 transition-transform" // Puedes quitar rounded-full si tu logo no es circular
-/>
+              width={48}
+              height={48}
+              className="rounded-full group-hover:scale-110 transition-transform"
+            />
             <span className="text-2xl font-playfair font-bold bg-gradient-to-r from-pink-pastel to-peach bg-clip-text text-transparent">
               Porto Dulce
             </span>
@@ -78,11 +82,47 @@ export default function Header() {
                 {item.label}
               </Link>
             ))}
+            
+            <Button
+              variant="ghost"
+              size="icon"
+              className="relative ml-2"
+              onClick={() => setIsOpen(true)}
+            >
+              <ShoppingCart className="w-5 h-5" />
+              {totalItems > 0 && (
+                <Badge
+                  variant="destructive"
+                  className="absolute -top-1 -right-1 h-5 w-5 flex items-center justify-center p-0 text-xs"
+                >
+                  {totalItems}
+                </Badge>
+              )}
+            </Button>
+
             <ThemeToggle />
           </nav>
 
           <div className="flex md:hidden items-center gap-2">
+            <Button
+              variant="ghost"
+              size="icon"
+              className="relative"
+              onClick={() => setIsOpen(true)}
+            >
+              <ShoppingCart className="w-5 h-5" />
+              {totalItems > 0 && (
+                <Badge
+                  variant="destructive"
+                  className="absolute -top-1 -right-1 h-5 w-5 flex items-center justify-center p-0 text-xs"
+                >
+                  {totalItems}
+                </Badge>
+              )}
+            </Button>
+
             <ThemeToggle />
+            
             <Button
               variant="ghost"
               size="icon"

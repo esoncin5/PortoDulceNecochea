@@ -5,8 +5,9 @@ import { useState, useRef, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ChevronLeft, ChevronRight, X } from "lucide-react";
+import { ChevronLeft, ChevronRight, X, ShoppingCart } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
+import { useCart } from "@/contexts/CartContext";
 
 interface Cake {
   id: number;
@@ -365,6 +366,8 @@ export default function CatalogSection() {
     cakeName: string;
   } | null>(null);
 
+  const { addItem } = useCart();
+
   const openFullscreen = (cake: Cake, imageIndex: number) => {
     setFullscreenData({
       images: cake.images,
@@ -377,6 +380,15 @@ export default function CatalogSection() {
   const closeFullscreen = () => {
     setFullscreenData(null);
     document.body.style.overflow = "unset";
+  };
+
+  const handleAddToCart = (cake: Cake) => {
+    addItem({
+      id: cake.id,
+      name: cake.name,
+      price: cake.price,
+      image: cake.images[0],
+    });
   };
 
   return (
@@ -416,9 +428,19 @@ export default function CatalogSection() {
                 <p className="text-sm text-muted-foreground mb-3">
                   {cake.description}
                 </p>
-                <p className="text-lg font-semibold text-primary">
-                  {cake.price}
-                </p>
+                <div className="flex items-center justify-between gap-2">
+                  <p className="text-lg font-semibold text-primary">
+                    {cake.price}
+                  </p>
+                  <Button
+                    size="sm"
+                    onClick={() => handleAddToCart(cake)}
+                    className="bg-gradient-to-r from-pink-pastel to-peach hover:opacity-90"
+                  >
+                    <ShoppingCart className="w-4 h-4 mr-1" />
+                    Agregar
+                  </Button>
+                </div>
               </CardContent>
             </Card>
           ))}
