@@ -395,10 +395,10 @@ export default function CatalogSection() {
     <section id="tortas" className="py-20 bg-gradient-cream">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4 text-[#F4C2C2]">
+          <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4 text-[#FFC5D3]">
             Nuestras Tortas
           </h2>
-          <p className="text-lg text-[#FF5C8D] max-w-2xl mx-auto">
+          <p className="text-lg text-[#FFFFFF] max-w-2xl mx-auto">
             Cada torta es única y hecha con ingredientes de primera calidad
           </p>
         </div>
@@ -416,7 +416,7 @@ export default function CatalogSection() {
               />
               <CardContent className="p-5">
                 <div className="flex items-start justify-between gap-2 mb-2">
-                  <h3 className="text-xl font-playfair font-semibold text-[#FF5C8D]">
+                  <h3 className="text-xl font-playfair font-semibold text-[#FFC5D3]">
                     {cake.name}
                   </h3>
                   {cake.popular && (
@@ -425,11 +425,11 @@ export default function CatalogSection() {
                     </Badge>
                   )}
                 </div>
-                <p className="text-sm text-[#FFFFFF] mb-3">
+                <p className="text-sm text-[#808080] mb-3">
                   {cake.description}
                 </p>
                 <div className="flex items-center justify-between gap-2">
-                  <p className="text-lg font-semibold text-[#FF5C8D]">
+                  <p className="text-lg font-semibold text-[#FFC5D3]">
                     {cake.price}
                   </p>
                   <Button

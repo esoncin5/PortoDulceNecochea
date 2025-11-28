@@ -24,7 +24,7 @@ export default function Footer() {
                 Porto Dulce
               </span>
             </div>
-            <p className="text-sm text-[#FF5C8D]">
+            <p className="text-sm text-[#FFC5D3]">
               Tortas artesanales hechas a mano con amor para tus momentos
               especiales por Marina Porto.
             </p>

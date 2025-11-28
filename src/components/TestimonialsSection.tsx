@@ -197,10 +197,10 @@ export default function TestimonialsSection() {
     <section className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4 text-[#FF5C8D]">
+          <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4 text-[#FFC5D3]">
             Opiniones de Clientes
           </h2>
-          <p className="text-lg text-[#FF5C8D] max-w-2xl mx-auto">
+          <p className="text-lg text-[#FFFFFF] max-w-2xl mx-auto">
             Lo que dicen quienes ya probaron nuestras tortas
           </p>
         </div>
