@@ -64,7 +64,7 @@ export default function Header() {
               className="rounded-full group-hover:scale-110 transition-transform"
             />
             <span className="text-2xl font-playfair font-bold text-[#FF5C8D]">
-              Porto Dulce
+              PortoDulce
             </span>
           </Link>
 
