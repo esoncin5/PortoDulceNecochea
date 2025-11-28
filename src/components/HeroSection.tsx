@@ -31,9 +31,7 @@ export default function HeroSection() {
             especiales
           </p>
           <p className="text-lg font-semibold animate-in fade-in slide-in-from-bottom duration-700 delay-300 text-[#FF5C8D]">
-            <span className="bg-gradient-to-r from-pink-pastel to-peach bg-clip-text text-transparent">
               Explorá nuestro catálogo y agregá tus tortas favoritas al carrito 🛒
-            </span>
           </p>
         </div>
       </div>
