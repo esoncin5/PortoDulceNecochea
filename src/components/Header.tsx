@@ -56,7 +56,7 @@ export default function Header() {
             }}
             className="flex items-center gap-2 group"
           >
-            <Image
+            <img
               src="/espiral.png"
               alt="Logo de Porto Dulce"
               width={48}
