@@ -21,7 +21,7 @@ export default function ContactSection() {
           <div className="space-y-6">
             <Card>
               <CardHeader>
-                <CardTitle className="text-2xl font-playfair text-[#FF5C8D]">
+                <CardTitle className="text-2xl font-playfair text-[#FFFFFF]">
                   Información de Contacto
                 </CardTitle>
               </CardHeader>
@@ -43,8 +43,8 @@ export default function ContactSection() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-semibold text-[#FF5C8D]">WhatsApp</p>
-                    <p className="text-sm text-[#FF5C8D]">+54 9 2262 41-4148</p>
+                    <p className="font-semibold text-[#FFFFFF]">WhatsApp</p>
+                    <p className="text-sm text-[#808080]">+54 9 2262 41-4148</p>
                   </div>
                 </a>
 
@@ -56,8 +56,8 @@ export default function ContactSection() {
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p className="font-semibold text-[#FF5C8D]">Teléfono</p>
-                    <p className="text-sm text-[#FF5C8D]">+54 9 2262 41-4148</p>
+                    <p className="font-semibold text-[#FFFFFF]">Teléfono</p>
+                    <p className="text-sm text-[#808080]">+54 9 2262 41-4148</p>
                   </div>
                 </a>
 
@@ -69,8 +69,8 @@ export default function ContactSection() {
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p className="font-semibold text-[#FF5C8D]">Email</p>
-                    <p className="text-sm text-[#FF5C8D]">portodulcenecochea@gmail.com</p>
+                    <p className="font-semibold text-[#FFFFFF]">Email</p>
+                    <p className="text-sm text-[#808080]">portodulcenecochea@gmail.com</p>
                   </div>
                 </a>
 
@@ -84,8 +84,8 @@ export default function ContactSection() {
                     <Instagram className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p className="font-semibold text-[#FF5C8D]">Instagram</p>
-                    <p className="text-sm text-[#FF5C8D]">@portodulcenecochea</p>
+                    <p className="font-semibold text-[#FFFFFF]">Instagram</p>
+                    <p className="text-sm text-[#808080]">@portodulcenecochea</p>
                   </div>
                 </a>
               </CardContent>
@@ -93,7 +93,7 @@ export default function ContactSection() {
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-2xl font-playfair">
+                <CardTitle className="text-2xl font-playfair text-[#FFFFFF]">
                   Zona de Cobertura
                 </CardTitle>
               </CardHeader>
@@ -101,12 +101,12 @@ export default function ContactSection() {
                 <div className="flex items-start gap-3">
                   <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <div>
-                    <p className="font-semibold mb-2 text-[#FF5C8D]">Retiro en local</p>
-                    <p className="text-sm text-[#FF5C8D] mb-4">
+                    <p className="font-semibold mb-2 text-[#FFFFFF]">Retiro en local</p>
+                    <p className="text-sm text-[#808080] mb-4">
                       Necochea, Buenos Aires
                     </p>
-                    <p className="font-semibold mb-2">Delivery disponible</p>
-                    <p className="text-sm text-[#FF5C8D]">
+                    <p className="font-semibold mb-2 text-[#FFFFFF]">Delivery disponible</p>
+                    <p className="text-sm text-[#808080]">
                       Consultá si llegamos a tu zona. Cobertura en Necochea y alrededores.
                     </p>
                   </div>

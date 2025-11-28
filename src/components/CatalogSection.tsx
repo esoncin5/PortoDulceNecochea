@@ -425,7 +425,7 @@ export default function CatalogSection() {
                     </Badge>
                   )}
                 </div>
-                <p className="text-sm text-[#FF5C8D] mb-3">
+                <p className="text-sm text-[#FFFFFF] mb-3">
                   {cake.description}
                 </p>
                 <div className="flex items-center justify-between gap-2">

@@ -29,7 +29,7 @@ export default function HeroSection() {
               hechas a mano
             </span>
           </h1>
-          <p className="text-xl md:text-2xl text-[#FF5C8D] mb-8 animate-in fade-in slide-in-from-bottom duration-700 delay-150">
+          <p className="text-xl md:text-2xl text-[#FFFFFF] mb-8 animate-in fade-in slide-in-from-bottom duration-700 delay-150">
             Pedidos personalizados para cumpleaños, eventos y ocasiones
             especiales
           </p>
