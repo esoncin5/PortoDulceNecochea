@@ -20,18 +20,18 @@ export default function Footer() {
                 height={40}
                 className="rounded-full"
               />
-              <span className="text-xl font-playfair font-bold">
+              <span className="text-xl font-playfair font-bold text-[#FF5C8D]">
                 Porto Dulce
               </span>
             </div>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-[#FF5C8D]">
               Tortas artesanales hechas a mano con amor para tus momentos
               especiales por Marina Porto.
             </p>
           </div>
 
           <div>
-            <h3 className="font-semibold mb-4">Seguinos</h3>
+            <h3 className="font-semibold mb-4 text-[#FF5C8D]">Seguinos</h3>
             <div className="flex gap-3">
               <a
                 href="https://wa.me/5492262414148"
@@ -69,7 +69,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t pt-8 text-center text-sm text-muted-foreground">
+        <div className="border-t pt-8 text-center text-sm text-[#FF5C8D]">
           <p>
             © {currentYear} Porto Dulce by Marina Porto. Todos los derechos reservados. Hecho con
             ❤️.

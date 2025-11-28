@@ -9,10 +9,10 @@ export default function ContactSection() {
     <section id="contacto" className="py-20 bg-gradient-cream">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4 text-[#FF5C8D]">
             Contacto
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-[#FF5C8D] max-w-2xl mx-auto">
             Estamos para ayudarte con tu pedido
           </p>
         </div>
@@ -21,7 +21,7 @@ export default function ContactSection() {
           <div className="space-y-6">
             <Card>
               <CardHeader>
-                <CardTitle className="text-2xl font-playfair">
+                <CardTitle className="text-2xl font-playfair text-[#FF5C8D]">
                   Información de Contacto
                 </CardTitle>
               </CardHeader>
@@ -43,8 +43,8 @@ export default function ContactSection() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-semibold">WhatsApp</p>
-                    <p className="text-sm text-muted-foreground">+54 9 2262 41-4148</p>
+                    <p className="font-semibold text-[#FF5C8D]">WhatsApp</p>
+                    <p className="text-sm text-[#FF5C8D]">+54 9 2262 41-4148</p>
                   </div>
                 </a>
 
@@ -56,8 +56,8 @@ export default function ContactSection() {
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p className="font-semibold">Teléfono</p>
-                    <p className="text-sm text-muted-foreground">+54 9 2262 41-4148</p>
+                    <p className="font-semibold text-[#FF5C8D]">Teléfono</p>
+                    <p className="text-sm text-[#FF5C8D]">+54 9 2262 41-4148</p>
                   </div>
                 </a>
 
@@ -69,8 +69,8 @@ export default function ContactSection() {
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p className="font-semibold">Email</p>
-                    <p className="text-sm text-muted-foreground">portodulcenecochea@gmail.com</p>
+                    <p className="font-semibold text-[#FF5C8D]">Email</p>
+                    <p className="text-sm text-[#FF5C8D]">portodulcenecochea@gmail.com</p>
                   </div>
                 </a>
 
@@ -84,8 +84,8 @@ export default function ContactSection() {
                     <Instagram className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p className="font-semibold">Instagram</p>
-                    <p className="text-sm text-muted-foreground">@portodulcenecochea</p>
+                    <p className="font-semibold text-[#FF5C8D]">Instagram</p>
+                    <p className="text-sm text-[#FF5C8D]">@portodulcenecochea</p>
                   </div>
                 </a>
               </CardContent>
@@ -101,12 +101,12 @@ export default function ContactSection() {
                 <div className="flex items-start gap-3">
                   <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <div>
-                    <p className="font-semibold mb-2">Retiro en local</p>
-                    <p className="text-sm text-muted-foreground mb-4">
+                    <p className="font-semibold mb-2 text-[#FF5C8D]">Retiro en local</p>
+                    <p className="text-sm text-[#FF5C8D] mb-4">
                       Necochea, Buenos Aires
                     </p>
                     <p className="font-semibold mb-2">Delivery disponible</p>
-                    <p className="text-sm text-muted-foreground">
+                    <p className="text-sm text-[#FF5C8D]">
                       Consultá si llegamos a tu zona. Cobertura en Necochea y alrededores.
                     </p>
                   </div>

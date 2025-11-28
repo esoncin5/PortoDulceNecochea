@@ -23,13 +23,13 @@ export default function HeroSection() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
-          <h1 className="text-5xl md:text-7xl font-playfair font-bold mb-6 animate-in fade-in slide-in-from-bottom duration-700">
+          <h1 className="text-5xl md:text-7xl font-playfair font-bold mb-6 animate-in fade-in slide-in-from-bottom duration-700 text-[#FF5C8D]">
             Tortas artesanales{" "}
             <span className="bg-gradient-to-r from-pink-pastel to-peach bg-clip-text text-transparent">
               hechas a mano
             </span>
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-in fade-in slide-in-from-bottom duration-700 delay-150">
+          <p className="text-xl md:text-2xl text-[#FF5C8D] mb-8 animate-in fade-in slide-in-from-bottom duration-700 delay-150">
             Pedidos personalizados para cumpleaños, eventos y ocasiones
             especiales
           </p>
@@ -42,8 +42,8 @@ export default function HeroSection() {
       </div>
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
-        <p className="text-sm text-foreground/60 font-medium">Desliza hacia abajo</p>
-        <ChevronDown className="w-6 h-6 text-foreground/60 animate-bounce" />
+        <p className="text-sm text-[#FF5C8D] font-medium">Desliza hacia abajo</p>
+        <ChevronDown className="w-6 h-6 text-[#FF5C8D] animate-bounce" />
       </div>
     </section>
   );
