@@ -26,7 +26,7 @@ export default function HeroSection() {
           <h1 className="text-5xl md:text-7xl font-playfair font-bold mb-6 animate-in fade-in slide-in-from-bottom duration-700 text-[#FF5C8D]">
             Tortas artesanales
           </h1>
-          <p className="text-xl md:text-2xl text-[#FFFFFF] mb-8 animate-in fade-in slide-in-from-bottom duration-700 delay-150">
+          <p className="text-xl md:text-2xl text-[#FFC5D3] mb-8 animate-in fade-in slide-in-from-bottom duration-700 delay-150">
             Pedidos personalizados para cumpleaños, eventos y ocasiones
             especiales
           </p>
