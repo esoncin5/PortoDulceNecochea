@@ -17,13 +17,20 @@ const testimonials: Testimonial[] = [
     id: 1,
     chatImage: "/images/opinion1.jpg",
   },
+
   {
     id: 2,
     chatImage: "/images/opinion2.jpg",
   },
+
   {
     id: 3,
     chatImage: "/images/opinion3.jpg",
+  },
+
+  {
+    id: 4,
+    chatImage: "/images/opinion4.jpg",
   },
 ];
 
