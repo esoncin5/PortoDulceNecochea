@@ -37,6 +37,11 @@ const testimonials: Testimonial[] = [
     id: 5,
     chatImage: "/images/opinion5.jpg",
   },
+
+    {
+    id: 6,
+    chatImage: "/images/opinion6.jpg",
+  },
 ];
 
 interface ChatCarouselProps {
