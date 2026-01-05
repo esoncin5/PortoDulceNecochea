@@ -95,6 +95,18 @@ const cakes: Cake[] = [
       "/images/chocotorta3.jpg",
     ],
   },
+
+      {
+    id: 7,
+    name: "Torta Golosinera (con golosinas a elección)",
+    description: "Una torta pensada para fanáticos del chocolate. Base húmeda y bien cargada, cubierta con abundante chocolate con leche y chocolate blanco, decorada con Rocklets, bombones y golosinas irresistibles. Cada porción es una explosión de sabor, color y textura. Ideal para cumpleaños, festejos o para darse un gusto sin culpas.",
+    price: "$20000 x kilo",
+    images: [
+      "/images/tortagolosinera1.jpeg",
+      "/images/tortagolosinera2.jpeg",
+      "/images/tortagolosinera3.jpeg",
+    ],
+  },
 ];
 
 interface CarouselProps {
